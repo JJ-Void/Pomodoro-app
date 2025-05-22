@@ -1,0 +1,33 @@
+{
+  "name": "Pomodoro Focus",
+  "short_name": "Pomodoro",
+  "start_url": "pomodoro.html",
+  "display": "standalone",
+  "background_color": "#e0e0e0",
+  "theme_color": "#e0e0e0",
+  "description": "Neumorphic Pomodoro Timer",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png"}
+  ],
+  "shortcuts": [
+    {
+      "name": "Start Work",
+      "short_name": "Work",
+      "description": "Start a work session",
+      "url": "pomodoro.html#work"
+    },
+    {
+      "name": "Start Break",
+      "short_name": "Break",
+      "description": "Start a break",
+      "url": "pomodoro.html#break"
+    },
+    {
+      "name": "Reset Timer",
+      "short_name": "Reset",
+      "description": "Reset the timer",
+      "url": "pomodoro.html#reset"
+    }
+  ]
+} 
